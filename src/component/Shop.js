@@ -14,13 +14,6 @@ const Shop = () => {
     <>
       <div>
         <h2>Deposit & Withdraw money</h2>
-        {/* <button className="btn btn-info mx-2" onClick={()=>(dispatch(actionCreators.depositmoney(100)))}>
-        <i class="fa-solid fa-circle-plus"></i>
-      </button>
-      Update Balance
-      <button className="btn btn-danger mx-2" onClick={()=>(dispatch(actionCreators.withdrawmoney(100)))}>
-        <i class="fa-solid fa-circle-minus"></i>
-      </button> */}
         <button className="btn btn-info mx-2" onClick={() => depositmoney(100)}>
           <i class="fa-solid fa-circle-plus"></i>
         </button>
